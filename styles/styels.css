@@ -5,9 +5,7 @@ body {
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
-  display: inline-flex;
   padding: 20px 43px;
-  align-items: flex-start;
   gap: 10px;
   color: #fff;
   font-family: Lato;
@@ -80,20 +78,18 @@ body {
   padding: 117px 47px 51px 48px;
   width: 370px;
   height: 370px;
-  
 }
 .feature-img7 {
-    border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  height: 538px;
 }
 .flower-img7 {
-    padding: 67px 75px 0px 75px;
-    width: 314px;
-height: 471px;
+  padding: 67px 75px 0px 75px;
+  width: 314px;
+  height: 471px;
 }
-
 
 .flower-link {
   color: #272727;
@@ -102,13 +98,12 @@ height: 471px;
   line-height: 35px;
   padding-top: 40px;
 }
-.flower-link-1
-{
-    color: #272727;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-    padding-top: 90px; 
+.flower-link-1 {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-top: 90px;
 }
 .feature-title {
   margin-top: 160px;
@@ -123,4 +118,32 @@ height: 471px;
   line-height: 30px;
   padding-left: 600px;
   width: 594px;
+}
+/* delivery and Support section */
+.flower-delivery {
+  display: flex;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 128px 240px 128px 240px;
+  width: 1440px;
+  height: 320px;
+}
+.delivery-text{
+    color:#272727CC;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+}
+.delivery{
+    padding: 86px 70px 87px 100px;
+}
+/* discount style */
+.discount-container{
+    width: 1750px;
+    height: 620px;
+    border-radius: 8px;
+background: #E554730D;
+text-align: center;
+display: flex;
 }
