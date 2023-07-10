@@ -129,47 +129,75 @@ body {
   width: 1440px;
   height: 320px;
 }
-.delivery-text{
-    color:#272727CC;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
+.delivery-text {
+  color: #272727cc;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
-.delivery{
-    padding: 86px 70px 87px 100px;
+.delivery {
+  padding: 86px 70px 87px 100px;
 }
 /* discount style */
-.discount-container{
-    width: 1750px;
-    height: 620px;
-    border-radius: 8px;
-background: #E554730D;
-text-align: center;
-display: flex;
-justify-content: space-around;
+.discount-container {
+  width: 1750px;
+  height: 620px;
+  border-radius: 8px;
+  background: #e554730d;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-.discount-title{
-    color: #272727;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 900;
-    margin-bottom: 0px;
-    
+.discount-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0px;
 }
-.discount-description{
-color:#27272799;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 594px;
-margin-bottom: 0px;
+.discount-description {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin-bottom: 0px;
 }
-.discount-details{
-    padding: 230px 186px 200px 360px;
+.discount-details {
+  padding: 230px 186px 200px 360px;
 }
-.discount-img{
-    width: 318px;
-height: 420px;
-padding: 150px 429px 100px 0px ;
+.discount-img {
+  width: 318px;
+  height: 420px;
+  padding: 150px 429px 100px 0px;
+}
+/* social style */
+.social-container {
+  text-align: center;
+  margin-top: 128px;
+}
+.social-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+}
+.social-description {
+  color: #27272799;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin-left: 600px;
+}
+.instagram-pic {
+  width: 342px;
+  height: 396px;
+}
+.instagram-pic-container{
+    display: flex;
+    gap: 24px;
+    margin: 48px 240px 128px 240px;
 }
