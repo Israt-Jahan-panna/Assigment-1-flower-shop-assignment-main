@@ -12,7 +12,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   border: none;
-  margin-top: 52px;
+  
 }
 /* header style*/
 .header-container {
@@ -45,6 +45,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   width: 634px;
+  margin-bottom: 32px;
 }
 /* feature style */
 .feature-text {
@@ -162,7 +163,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   width: 594px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .discount-details {
   padding: 230px 186px 200px 360px;
@@ -200,4 +201,40 @@ body {
     display: flex;
     gap: 24px;
     margin: 48px 240px 128px 240px;
+}
+/* Latest Update */
+.latest-Update{
+    text-align: center;
+    background-image: url(../Rectangle\ 9.png);
+    width: 1440px;
+height: 449px;
+margin: 0px 240px 128px 240px;
+padding-top: 120px;
+background-repeat: no-repeat;
+
+}
+.email-input{
+    width: 630px;
+height: 25px;
+color: #27272799;
+border: none;
+font-weight: 400px;
+border-radius: 8px;
+padding: 24px 50px 22px 22px;
+margin-right: 10px;
+}
+.update-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.update-description{
+    color: #27272799;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 30px;
 }
