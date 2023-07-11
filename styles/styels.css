@@ -139,6 +139,9 @@ body {
   padding: 86px 70px 87px 100px;
 }
 /* discount style */
+.off-text{
+  color: #E55473;
+}
 .discount-container {
   width: 1750px;
   height: 620px;
@@ -235,6 +238,44 @@ body {
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 30px;
+}
+/* customer review style */
+.customer-review{
+  text-align: center;
+
+}
+.review-container{
+  display: flex;
+  gap: 40px;
+  margin: 0px 340px 0px 530px;
+}
+.stars{
+  color: orange;
+}
+.review-title{
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+}
+.review-description{
+color: #757575;
+font-size: 16px;
+width: 250px;
+line-height: 28px;
+}
+.customer-pic{
+  width: 44px;
+height: 44px;
+padding: 30px 50px 20px 80px ;
+}
+.review-part{
+  width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+margin-bottom: 140px;
 }
 /* footer style */
 
